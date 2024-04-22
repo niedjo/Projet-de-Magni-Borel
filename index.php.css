@@ -1,0 +1,38 @@
+*,::before,::after{
+    box-sizing : border-box;
+    margin : 0;
+    padding : 0;
+}
+
+body{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+
+    height: 100vh;
+    background: url(secured.jpg) center/cover;
+    background-repeat: no-repeat;
+}
+.s{
+    font-size: 59px;
+    color: wheat;
+}
+.form,.s{
+    margin-bottom: 5%;
+}
+.form{
+    background: rgb(74, 74, 236);
+}
+table{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 2pc;
+    border-collapse: collapse;
+}
+td{
+    padding: 10px;
+    text-align: center;
+}

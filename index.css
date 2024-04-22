@@ -1,0 +1,63 @@
+*,::before,::after{
+    box-sizing : border-box;
+    margin : 0;
+    padding : 0;
+}
+
+body{
+    height: 100vh;
+    background: url(secured.jpg) center/cover;
+    background-repeat: no-repeat;
+
+    /* un peu de responsive */
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+.box{
+    background: #527ffa;
+    padding: 15px;
+    border-radius: 2pc;
+    border: transparent;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+
+td{
+    padding: 10px;
+}
+.sexe{
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"], select, input[type="date"]{
+    padding: 8px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 2pc;
+}
+
+input[type="submit"]{
+    padding: 12px;
+    width: 130px;
+    border-radius: 2pc;
+    cursor: pointer;
+    border: none;
+    color: #f1f2f5;
+    background: #0233b9;
+    transition: scale 1s ease-out;
+}
+
+input[type="submit"]:hover{
+    scale: 1.2;
+}
